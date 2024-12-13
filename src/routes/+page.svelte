@@ -7,7 +7,7 @@
 	import ArxivIcon from 'virtual:icons/simple-icons/arxiv';
 
 	// TODO: Add links
-	let paper_link = '/paper.pdf';
+	let paper_link = 'https://arxiv.org/pdf/2412.09565';
 	let arxiv_link = 'https://arxiv.org/abs/2412.09565';
 	let github_link = '';
 </script>
