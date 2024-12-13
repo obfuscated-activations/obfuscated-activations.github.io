@@ -29,8 +29,8 @@
 					<span>Bypass LLM Latent-Space Defenses</span>
 				</div>
 				<div class="mt-6 md:mt-8 text-base md:text-lg">
-					Luke Bailey<sup>1*</sup>, Alex Serrano<sup>2*</sup>, Abhay Sheshadri<sup>3*</sup>, Mikhail
-					Seleznyov<sup>4*</sup>, Jordan Taylor<sup>5*</sup>, Erik Jenner<sup>6*</sup> <br />
+					Luke Bailey<sup>1*</sup>, Alex Serrano<sup>2†*</sup>, Abhay Sheshadri<sup>3†*</sup>, Mikhail
+					Seleznyov<sup>4†*</sup>, Jordan Taylor<sup>5†*</sup>, Erik Jenner<sup>6*</sup> <br />
 					<span class="mt-2 block"
 						>Jacob Hilton<sup>7</sup>, Stephen Casper<sup>8</sup>, Carlos Guestrin<sup>1,9</sup>,
 						Scott Emmons<sup>6</sup></span
