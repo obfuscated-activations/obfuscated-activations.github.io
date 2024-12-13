@@ -350,7 +350,10 @@
 					target="_blank"
 					rel="noreferrer">Creative Commons Attribution-ShareAlike 4.0 International License</a
 				>. This means you are free to borrow the source code of this website, we just ask that you
-				link back to this page in the footer.
+				link back to this page in the footer. This website is based on
+				<a class="underline" href="https://leela-interp.github.io/" target="_blank" rel="noreferrer"
+					>https://leela-interp.github.io/</a
+				>.
 			</div>
 		</div>
 	</div>
