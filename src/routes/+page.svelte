@@ -7,8 +7,8 @@
 	import ArxivIcon from 'virtual:icons/simple-icons/arxiv';
 
 	// TODO: Add links
-	let paper_link = '';
-	let arxiv_link = '';
+	let paper_link = '/paper.pdf';
+	let arxiv_link = 'https://arxiv.org/abs/2412.09565';
 	let github_link = '';
 </script>
 
@@ -278,20 +278,6 @@
 		less than 0.6% of the time to normal inputs 
 		(0%, 0.2% and 0.6%, left to right).
 	</Block>
-	<Block>
-		<p class="pb-4">
-			Convallis justo eget placerat eu nec massa ligula cras auctor. Mollis neque penatibus
-			imperdiet mi est class massa. Vel mattis sapien ac pharetra curabitur sed quisque. Dictum
-			laoreet tortor vehicula dapibus accumsan proin taciti.
-		</p>
-		<p>
-			Lorem ipsum odor amet, consectetuer adipiscing elit. Feugiat rhoncus commodo duis litora metus
-			duis vivamus etiam. Ridiculus curae tortor aliquam nostra id tempus inceptos. Feugiat etiam
-			vivamus cras suscipit dolor leo magna. Ad lacinia potenti class enim praesent lobortis nam
-			vulputate. Nascetur maximus tempor finibus fusce a. Cursus et pretium urna ligula ex pulvinar
-			arcu sodales.
-		</p>
-	</Block>
 	<!-- END BACKDOORS -->
 
 	<!-- START SAE -->
@@ -343,7 +329,12 @@
 			class="font-mono text-xs mt-4 bg-gray-100 px-4 py-4 border-2 border-solid border-gray-200 rounded-md w-full"
 		>
 			<pre class="whitespace-pre-wrap">
-{`@misc{citation here}`}</pre>
+{`@article{bailey2024obfuscated,
+	title={Obfuscated Activations Bypass LLM Latent-Space Defenses},
+	author={Bailey, Luke and Serrano, Alex and Sheshadri, Abhay and Seleznyov, Mikhail and Taylor, Jordan and Jenner, Erik and Hilton, Jacob and Casper, Stephen and Guestrin, Carlos and Emmons, Scott},
+	journal={arXiv preprint arXiv:2412.09565},
+	year={2024}
+}`}</pre>
 		</div>
 	</Block>
 	<!-- END CITATION -->
