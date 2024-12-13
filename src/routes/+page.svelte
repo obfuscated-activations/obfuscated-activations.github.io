@@ -115,7 +115,7 @@
 		</p>
 		<br />
 
-		<h2 class="text-xl font-semibold mb-3">Obfuscation Activations</h2>
+		<h2 class="text-xl font-semibold mb-3">Obfuscated Activations</h2>
 		When activations induced by an adversarial attack fool a latent space monitor, we call these<em
 			>obfuscated activations</em
 		>.
