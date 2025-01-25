@@ -6,7 +6,6 @@
 	import GithubIcon from 'virtual:icons/mdi/github';
 	import ArxivIcon from 'virtual:icons/simple-icons/arxiv';
 
-	// TODO: Add links
 	let paper_link = 'https://arxiv.org/pdf/2412.09565';
 	let arxiv_link = 'https://arxiv.org/abs/2412.09565';
 	let github_link = '';
@@ -116,8 +115,7 @@
 		<br />
 
 		<h2 class="text-xl font-semibold mb-3">Obfuscated Activations</h2>
-		When activations induced by an adversarial attack fool a latent space monitor, we call these<em
-			>obfuscated activations</em
+		When activations induced by an adversarial attack fool a latent space monitor, we call these <em>obfuscated activations</em
 		>.
 		<br />
 		<br />
@@ -146,8 +144,7 @@
 		<h1 class="mb-4 text-2xl font-bold" id="harmfulness">Detecting Harmfulness</h1>
 		We consider monitors trained to detect harmful model inputs and generations. We use the obfuscation
 		attack loss to train adversarial suffixes (both embedding soft prompts and token hard prompts) to
-		jailbreak models
-		<em>while obfuscating against the monitor</em>.
+		jailbreak models <em>while obfuscating against monitors</em>.
 	</Block>
 	<Block size="max-w-5xl" padding="pb-0">
 		<div class="flex flex-col md:flex-row gap-4">
@@ -246,7 +243,7 @@
 		We also consider training backdoors into models that evade latent-space monitors. We find using
 		an obfuscation attack loss we can train backdoors into models that are hard to detect. We also
 		find in the black-box setting, where the attacker can only poison data, there are certain
-		poisoning rates and complexity of triggers that also lead to obfuscation!
+		poisoning rates and complexity of triggers that also lead to obfuscation.
 	</Block>
 	<Block size="max-w-4xl" padding="pb-0">
 		<img
