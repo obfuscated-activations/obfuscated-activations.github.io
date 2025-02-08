@@ -8,7 +8,7 @@
 
 	let paper_link = 'https://arxiv.org/pdf/2412.09565';
 	let arxiv_link = 'https://arxiv.org/abs/2412.09565';
-	let github_link = '';
+	let github_link = 'https://github.com/LukeBailey181/obfuscated-activations';
 </script>
 
 <svelte:head>
@@ -68,7 +68,6 @@
 							</div>
 						</LinkButton>
 					</a>
-					<!---
 					<a href={github_link} target="_blank" rel="noreferrer">
 						<LinkButton>
 							<div class="flex items-center">
@@ -77,7 +76,6 @@
 							</div>
 						</LinkButton>
 					</a>
-					-->
 				</div>
 			</div>
 		</div>
